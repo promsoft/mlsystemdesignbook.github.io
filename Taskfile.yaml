@@ -1,0 +1,21 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  default:
+    cmds:
+      - jupyter-book clean mlsystemdesignbook/
+      - jupyter-book build mlsystemdesignbook/
+    silent: false
+  pdf:
+    cmds:
+      - jupyter-book clean mlsystemdesignbook/
+      - jupyter-book build mlsystemdesignbook/ --builder pdflatex
+      - cp mlsystemdesignbook/_build/latex/book.pdf .
+    silent: false
+  links:
+    cmds:
+      - jupyter-book clean mlsystemdesignbook/
+      - jupyter-book build mlsystemdesignbook/ --builder linkcheck
+    silent: false

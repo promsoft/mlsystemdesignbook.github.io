@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: "Введение"
+    chapters:
+    - file: authors
+  - caption: "Приложения"
+    chapters:
+    - file: literature

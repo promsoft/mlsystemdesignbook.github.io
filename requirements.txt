@@ -1,0 +1,5 @@
+jupyter-book
+matplotlib
+numpy
+ghp-import
+docutils==0.17.1
