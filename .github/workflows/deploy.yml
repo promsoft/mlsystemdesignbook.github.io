@@ -31,10 +31,6 @@ jobs:
       run: |
         jupyter-book build mlsystemdesignbook
 
-    # CNAME
-    - name: CNAME
-      run: |
-        cp CNAME mlsystemdesignbook/_build/html/
 
 
     # Deploy the book's HTML to gh-pages branch
