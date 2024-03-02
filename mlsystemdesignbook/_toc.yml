@@ -9,7 +9,7 @@ parts:
     - file: authors
   - caption: "ML System Design"
     chapters:
-    - file: ml_design_doc
+    - file: ml_sys_design
   - caption: "ML System Design Documents"
     chapters:
     - file: ml_design_doc
