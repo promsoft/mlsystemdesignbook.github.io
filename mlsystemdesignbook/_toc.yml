@@ -7,6 +7,10 @@ parts:
   - caption: "Введение"
     chapters:
     - file: authors
+  - caption: "ML System Design"  
+    - file: ml_design_doc
+  - caption: "ML System Design Documents"
+    - file: ml_design_doc
   - caption: "Приложения"
     chapters:
     - file: literature
