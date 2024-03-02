@@ -8,8 +8,10 @@ parts:
     chapters:
     - file: authors
   - caption: "ML System Design"  
+    chapters:
     - file: ml_design_doc
   - caption: "ML System Design Documents"
+    chapters:    
     - file: ml_design_doc
   - caption: "Приложения"
     chapters:
